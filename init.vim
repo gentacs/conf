@@ -35,6 +35,12 @@ Plugin 'alvan/vim-closetag'
 Plugin 'othree/yajs.vim'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
+
+" Jupyter
+" Plugin 'luk400/vim-jukit'
+
+" Copilot
+"Plugin 'github/copilot.vim'
 " " ===================
 " " end of plugins
 " " ===================
@@ -51,7 +57,7 @@ set smarttab
 set expandtab
 let mapleader="."
 
-let g:ruby_host_prog = '~/.gem/ruby/2.4.0/bin/neovim-ruby-host'
+let g:ruby_host_prog = '~/.local/share/gem/ruby/3.0.0/bin/neovim-ruby-host'
 " NerdTree
 set guifont=Droid\ Sans\ Mono\ Nerd\ Font\ Complete\ 11
 let g:NERDTreeChDirMode = 2  " Change cwd to parent node
@@ -234,3 +240,6 @@ map <A-6> :6tabnext<CR>
 map <A-7> :7tabnext<CR>
 map <A-8> :8tabnext<CR>
 map <A-9> :9tabnext<CR>
+
+
+hi Normal guibg=NONE ctermbg=NONE
